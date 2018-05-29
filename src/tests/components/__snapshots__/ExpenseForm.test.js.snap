@@ -2,7 +2,9 @@
 
 exports[`should render ExpenseForm 1`] = `
 <div>
-  <form>
+  <form
+    onSubmit={[Function]}
+  >
     <input
       autoFocus={true}
       onChange={[Function]}
@@ -14,12 +16,13 @@ exports[`should render ExpenseForm 1`] = `
       onChange={[Function]}
       placeholder="Amount"
       type="text"
+      value=""
     />
     <SingleDatePicker
       anchorDirection="left"
       customCloseIcon={null}
       customInputIcon={null}
-      date={"1970-01-01T00:00:00.000Z"}
+      date={"2018-05-29T06:30:33.934Z"}
       daySize={39}
       disabled={false}
       displayFormat={[Function]}
@@ -105,24 +108,27 @@ exports[`should render ExpenseForm 1`] = `
 
 exports[`should render ExpenseForm with data 1`] = `
 <div>
-  <form>
+  <form
+    onSubmit={[Function]}
+  >
     <input
       autoFocus={true}
       onChange={[Function]}
       placeholder="Description"
       type="text"
-      value=""
+      value="Rent"
     />
     <input
       onChange={[Function]}
       placeholder="Amount"
       type="text"
+      value="1950"
     />
     <SingleDatePicker
       anchorDirection="left"
       customCloseIcon={null}
       customInputIcon={null}
-      date={"1970-01-01T00:00:00.000Z"}
+      date={"1969-12-28T00:00:00.000Z"}
       daySize={39}
       disabled={false}
       displayFormat={[Function]}
