@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "9.10.0"
-  }
+  },
   "main": "index.js",
   "scripts": {
     "serve": "live-server public/",
