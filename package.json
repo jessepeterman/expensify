@@ -1,7 +1,9 @@
 {
   "name": "expensify",
   "version": "1.0.0",
-  "engines": {},
+  "engines": {
+    "node": "10.1.0"
+  },
   "main": "index.js",
   "scripts": {
     "build:dev": "webpack",
