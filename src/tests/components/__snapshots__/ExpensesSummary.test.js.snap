@@ -1,34 +1,109 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render expense summary with 1`] = `
-<p>
-  <strong>
-    Your total for 
-    3
-     item(s) is: 
-    $188.68
-  </strong>
-</p>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      Your total for 
+      <span>
+        3
+      </span>
+       
+      items
+       is: 
+      <span>
+        $188.68
+      </span>
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`should render expense summary with 2`] = `
-<p>
-  <strong>
-    Your total for 
-    1
-     item(s) is: 
-    $94.34
-  </strong>
-</p>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      Your total for 
+      <span>
+        1
+      </span>
+       
+      item
+       is: 
+      <span>
+        $94.34
+      </span>
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
+</div>
 `;
 
 exports[`should render expense summary with 3`] = `
-<p>
-  <strong>
-    Your total for 
-    2
-     item(s) is: 
-    $94.34
-  </strong>
-</p>
+<div
+  className="page-header"
+>
+  <div
+    className="content-container"
+  >
+    <h1
+      className="page-header__title"
+    >
+      Your total for 
+      <span>
+        2
+      </span>
+       
+      items
+       is: 
+      <span>
+        $94.34
+      </span>
+    </h1>
+    <div
+      className="page-header__actions"
+    >
+      <Link
+        className="button"
+        replace={false}
+        to="/create"
+      >
+        Add Expense
+      </Link>
+    </div>
+  </div>
+</div>
 `;
